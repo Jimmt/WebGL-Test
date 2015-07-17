@@ -34,7 +34,7 @@ window.onload = function init() {
 
   var bufferId = gl.createBuffer();
   gl.bindBuffer( gl.ARRAY_BUFFER, bufferId );
-  gl.bufferData( gl.ARRAY_BUFFER, 8*Math.pow(3, 8), gl.STATIC_DRAW );
+  gl.bufferData( gl.ARRAY_BUFFER, 8*Math.pow(6, 8), gl.STATIC_DRAW );
 
 
 
